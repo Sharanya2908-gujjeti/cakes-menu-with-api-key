@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+  display: flex;
+  height: 100vh;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  background: rgb(66, 100, 66);
+}
+.container{
+  border-radius: 5px;
+  padding: 25px 33px;
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+}
+.container .main{
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(97, 154, 154);
+}
+.container form .details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+margin: 20px 0 10px 0;
+}
+form .details .input-part{
+width: 300px;
+margin-top: 2px;
+margin-bottom: 15px;
+
+}
+form .details .input-part input{
+  height: 50px;
+  width: 100%;
+ font-size: 15px;
+  border-radius: 5px;
+}
+.details .input-part .user{
+  font-weight: 500;
+  display: block;
+  margin-bottom: 5px;
+}
+form .buttons{
+  height: 50px;
+  margin: 50px 0;
+  
+}
+form .buttons a{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+}
+form .buttons .btn{
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 2px solid blue;
+  color: rgb(177, 168, 174);
+  border-radius: 5px;
+  font-size: 20px;
+  background: rgb(133, 89, 162);
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+form .buttons .btn:hover{
+  background: rgb(129, 44, 58);
+  color: rgb(54, 152, 144);
+}
+ 

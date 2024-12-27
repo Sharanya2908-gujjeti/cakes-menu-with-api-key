@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+  <style>
+    button{
+      margin-top: 10px;
+      background-color: rgb(219, 140, 140);
+      width: 100%;
+      color: brown;
+border: 2px solid blueviolet;
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 25px;
+      display: block;}
+button:hover{
+  background-color: aqua;
+  color: blue;
+}
+  </style>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <div class="container">
+    <div class="main">Registration</div>
+    <form action="#" id="form">
+      <div class="details">
+        <div class="input-part">
+          <span class="user">First Name:</span>
+          <input type="text" placeholder=" Enter your First name" id="Firstname">
+        <span id="Firstname_error" style="color: rgb(161, 6, 56);"></span>
+        </div>
+        <div class="input-part">
+          <span class="user">Last Name:</span>
+          <input type="text" placeholder="Enter your Last name" id="lastname">
+        <span id="lastname_error"style="color: rgb(161, 6, 56);"></span>
+        </div>
+        <div class="input-part">
+          <span class="user"> Email:</span>
+          <input type="text" placeholder="Enter your Email" id="email">
+       <span id="email_error"style="color: rgb(161, 6, 56);"></span>
+        </div>
+        
+        <div class="input-part">
+          <span class="user">Password:</span>
+          <input type="text" placeholder="Enter your password" id="password">
+        <span id="password_error"style="color: rgb(161, 6, 56);"></span>
+        </div>
+        <div class="input-part">
+          <span class="user">Confirm password:</span>
+          <input type="text" placeholder="Enter your Confirm password" id="confirm">
+        <span id="confirm_error"style="color: rgb(161, 6, 56);"></span>
+        </div>
+      </div>
+      <!-- <div class="buttons">
+        <a href="index.html" class="btn">Submit</a>
+      
+       <button class="btn" id="btn" type="submit" onclick="valid()">Submit</button>
+      
+      </div> -->
+      <button  type="submit" class="btns" >Submit <a href="index.html" class="btn"></a></button>
+      <div class="buttons"><a href="index.html" class="btn">Next</a></div>
+      </div>
+ </form>
+  </div>
+  <script src="form.js"></script>
+  </body>
+  
+</html>
